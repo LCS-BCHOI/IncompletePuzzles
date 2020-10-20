@@ -15,7 +15,19 @@ print("=======")
 // Get tine length
 print("Enter tine length:")
 print("   ", terminator: "")
-let tineLength = Int(readLine()!)!
+var tineLength = 0
+while true{
+    
+    //Prompt the user
+    print("Enter tine length:")
+    
+    //Collect input
+    guard readLine() != nil else {
+        continue
+    }
+   // Stop the loop
+    break
+}
 
 // Get tine spacing
 print("Enter tine spacing:")

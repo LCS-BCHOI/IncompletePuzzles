@@ -12,6 +12,7 @@
 		0E736531252B64C800F3914E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E736530252B64C800F3914E /* main.swift */; };
 		0EE0D95F252563ED0090B2E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D95E252563ED0090B2E0 /* main.swift */; };
 		0EE0D96C252564CB0090B2E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE0D96B252564CB0090B2E0 /* main.swift */; };
+		DA4FECDD253F693800469D1E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4FECDC253F693800469D1E /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +74,8 @@
 		0EE0D95E252563ED0090B2E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0EE0D969252564CB0090B2E0 /* TheCellSell */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TheCellSell; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE0D96B252564CB0090B2E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DA4FECD6253F68F900469D1E /* TheCellSell */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TheCellSell; path = ../../TheCellSell; sourceTree = "<group>"; };
+		DA4FECDC253F693800469D1E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,7 @@
 		0EE0D943252563B00090B2E0 = {
 			isa = PBXGroup;
 			children = (
+				DA4FECDC253F693800469D1E /* Extensions.swift */,
 				0EE0D95D252563ED0090B2E0 /* Trident */,
 				0EE0D96A252564CB0090B2E0 /* TheCellSell */,
 				0E7364BF2528B54400F3914E /* RSANumbers */,
@@ -173,6 +177,7 @@
 		0EE0D96A252564CB0090B2E0 /* TheCellSell */ = {
 			isa = PBXGroup;
 			children = (
+				DA4FECD6253F68F900469D1E /* TheCellSell */,
 				0EE0D96B252564CB0090B2E0 /* main.swift */,
 			);
 			path = TheCellSell;
@@ -352,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EE0D96C252564CB0090B2E0 /* main.swift in Sources */,
+				DA4FECDD253F693800469D1E /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,7 +20,7 @@ print("Enter phrase> ", terminator: "")
 let phrase = readLine()!
 
 // PROCESS AND OUTPUT
-// NOTE: Instead of an "if statement" using a different type of Swift structure to handle all the different possible cases...
+// NOTE: Instead of an "if statement" consider using a different type of Swift structure to handle all the different possible cases...
 if phrase == "TA" {
     print("totally awesome")
 } else if phrase == "TTYL" {
